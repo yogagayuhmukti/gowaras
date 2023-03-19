@@ -32,7 +32,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav offset-lg-8">
+          <ul className="navbar-nav">
             <li className="nav-item">
               <HashLink className="nav-link text-black" to="/">
                 Pendaftaran
