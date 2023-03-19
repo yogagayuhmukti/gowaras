@@ -13,6 +13,7 @@ import {
   LokasiPraktekTerdeteksi,
   LayananHomeCare,
   PrintNotaviaHP,
+  RujukanDokter,
 } from "../../pages";
 
 const Rute = () => {
@@ -34,10 +35,10 @@ const Rute = () => {
           path="/rujukpindahlokasi"
           element={<RujukPindahLokasi></RujukPindahLokasi>}
         />
-        {/* <Route
-          path="/RujukKeDokter"
-          element={<RujukKeDokter></RujukKeDokter>}
-        /> */}
+        <Route
+          path="/rujukandokter"
+          element={<RujukanDokter></RujukanDokter>}
+        />
         <Route
           path="/konsultasidokter"
           element={<KonsulDokter></KonsulDokter>}

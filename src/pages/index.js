@@ -4,7 +4,7 @@ import AnamnesePasien from "./AnamnesePasien";
 import RekamMedis from "./RekamMedis";
 import KonsultasiLayanan from "./KonsultasiLayanan";
 import RujukPindahLokasi from "./RujukPindahLokasi";
-// import RujukanKeDokter from "./RujukankeDokter";
+import RujukanDokter from "./RujukanDokter";
 import KonsulDokter from "./KonsulDokter";
 import KasirNotaPelayanan from "./KasirNotaPelayanan";
 import LayananTeam from "./LayananTeam";
@@ -19,7 +19,7 @@ export {
   RekamMedis,
   KonsultasiLayanan,
   RujukPindahLokasi,
-  // RujukanKeDokter,
+  RujukanDokter,
   KonsulDokter,
   KasirNotaPelayanan,
   LayananTeam,
