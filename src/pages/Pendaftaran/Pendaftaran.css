@@ -1,0 +1,33 @@
+.pesan {
+  display: flex;
+  flex-direction: column;
+  padding: 124px;
+}
+.pesanform {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+.tombol-kirim {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0d28a6;
+  color: white;
+  width: 100%;
+  align-content: center;
+  border-radius: 2px;
+  border: 0px;
+}
+@media only screen and (max-width: 768px) {
+  .pesan {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
+  .pesanform {
+    display: flex;
+  }
+  .inputform {
+    margin-bottom: 10px;
+  }
+}
